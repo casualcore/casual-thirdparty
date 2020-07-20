@@ -1,0 +1,10 @@
+from casual.make.api import *
+
+
+IncludePaths( ['src'])
+
+LinkArchive( 'bin/pugixml',
+   [
+      Compile( 'src/pugixml.cpp'),
+    ])
+

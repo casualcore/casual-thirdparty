@@ -1,0 +1,33 @@
+from casual.make.api import *
+
+IncludePaths( ['include'])
+
+LinkArchive( 'bin/yaml-cpp',
+   [
+      Compile( 'src/aliasmanager.cpp'),
+      Compile( 'src/binary.cpp'),
+      Compile( 'src/conversion.cpp'),
+      Compile( 'src/directives.cpp'),
+      Compile( 'src/emitfromevents.cpp'),
+      Compile( 'src/emitter.cpp'),
+      Compile( 'src/emitterstate.cpp'),
+      Compile( 'src/emitterutils.cpp'),
+      Compile( 'src/exp.cpp'),
+      Compile( 'src/iterator.cpp'),
+      Compile( 'src/node.cpp'),
+      Compile( 'src/nodebuilder.cpp'),
+      Compile( 'src/nodeownership.cpp'),
+      Compile( 'src/null.cpp'),
+      Compile( 'src/ostream.cpp'),
+      Compile( 'src/parser.cpp'),
+      Compile( 'src/regex.cpp'),
+      Compile( 'src/scanner.cpp'),
+      Compile( 'src/scanscalar.cpp'),
+      Compile( 'src/scantag.cpp'),
+      Compile( 'src/scantoken.cpp'),
+      Compile( 'src/simplekey.cpp'),
+      Compile( 'src/singledocparser.cpp'),
+      Compile( 'src/stream.cpp'),
+      Compile( 'src/tag.cpp'),
+    ])
+
