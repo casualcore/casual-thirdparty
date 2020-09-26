@@ -1,0 +1,24 @@
+.casual/
+
+
+# python, rope
+.ropeproject/
+
+# vs code
+.vscode/
+
+
+core
+
+
+#
+# Build directories
+#
+dependencies/
+obj/
+bin/
+
+
+
+/Default/
+/Release/

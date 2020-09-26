@@ -1,0 +1,5 @@
+from casual.make.porcelain import *
+
+Build( 'pugixml/makefile.cmk')
+Build( 'yaml-cpp/makefile.cmk')
+

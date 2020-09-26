@@ -1,10 +1,9 @@
-from casual.make.api import *
-
+from casual.middleware.make.dsl import *
 
 IncludePaths( ['src'])
 
 LinkArchive( 'bin/pugixml',
    [
       Compile( 'src/pugixml.cpp'),
-    ])
+   ])
 

@@ -1,4 +1,4 @@
-from casual.make.api import *
+from casual.middleware.make.dsl import *
 
 IncludePaths( ['include'])
 
@@ -29,5 +29,5 @@ LinkArchive( 'bin/yaml-cpp',
       Compile( 'src/singledocparser.cpp'),
       Compile( 'src/stream.cpp'),
       Compile( 'src/tag.cpp'),
-    ])
+   ])
 
