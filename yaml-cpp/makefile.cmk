@@ -1,4 +1,4 @@
-from casual.middleware.make.dsl import *
+from casual.make.api import * 
 
 IncludePaths( ['include'])
 
