@@ -2,12 +2,13 @@ from casual.make.api import *
 
 IncludePaths( ['include'])
 
-# yaml-cpp version 0.6.3
+# yaml-cpp version 0.7.0
 
 LinkArchive( 'bin/yaml-cpp',
    [
       Compile( './src/binary.cpp'),
       Compile( './src/convert.cpp'),
+      Compile( './src/depthguard.cpp'),
       Compile( './src/directives.cpp'),
       Compile( './src/emit.cpp'),
       Compile( './src/emitfromevents.cpp'),
