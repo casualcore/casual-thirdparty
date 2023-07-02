@@ -6649,7 +6649,7 @@ namespace pugi
 		return const_cast<xml_node*>(&_wrap); // BCC5 workaround
 	}
 
-	PUGI__FN const xml_node_iterator& xml_node_iterator::operator++()
+	PUGI__FN xml_node_iterator& xml_node_iterator::operator++()
 	{
 		assert(_wrap._root);
 		_wrap._root = _wrap._root->next_sibling;
